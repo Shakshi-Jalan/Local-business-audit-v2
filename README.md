@@ -414,15 +414,15 @@ It includes:
 
 ### 1. Overview
 
-![Overview Dashboard](screenshots/overview.png)
+![Overview Dashboard](overview.png)
 
 ### 2. Customer Sentiment & Complaints
 
-![Customer Sentiment & Complaints](screenshots/customer_sentiment_complaints.png)
+![Customer Sentiment & Complaints](customer_sentiment_complaints.png)
 
 ### 3. Problem Diagnosis
 
-![Problem Diagnosis](screenshots/problem_diagnosis.png)
+![Problem Diagnosis](problem_diagnosis.png)
 
 ---
 
