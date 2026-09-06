@@ -430,29 +430,6 @@ Local-business-audit-v2/
     ├── review_analysis.csv
     ├── dish_price_comparison.csv
     └── low_rating_analysis.csv
-
----
-
-# 📁 Project Structure
-
-```text
-Local-business-audit-v2/
-│
-├── README.md
-├── analysis.py
-├── requirements.txt
-│
-├── overview.png
-├── customer_sentiment_complaints.png
-├── problem_diagnosis.png
-│
-└── output/
-    ├── restaurant_benchmark.csv
-    ├── problem_analysis.csv
-    ├── rating_summary.csv
-    ├── review_analysis.csv
-    ├── dish_price_comparison.csv
-    └── low_rating_analysis.csv
 ```
 
 # ▶️ How to Run
