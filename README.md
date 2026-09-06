@@ -410,21 +410,19 @@ It includes:
 
 ---
 
-# 📸 Dashboard Preview
+## Dashboard Preview
 
-### Page 1 — Executive Overview
+### 1. Overview
 
-![Page 1 – Executive Overview](images/page1_overview.png)
+![Overview Dashboard](screenshots/overview.png)
 
-### Page 2 — Customer Sentiment & Complaints
+### 2. Customer Sentiment & Complaints
 
-![Page 2 – Customer Sentiment & Complaints](images/page2_sentiment.png)
+![Customer Sentiment & Complaints](screenshots/customer_sentiment_complaints.png)
 
-### Page 3 — Problem Diagnosis
+### 3. Problem Diagnosis
 
-![Page 3 – Problem Diagnosis](images/page3_diagnosis.png)
-
-> Replace the image filenames above with the actual names of your screenshots when you upload them to the GitHub repository.
+![Problem Diagnosis](screenshots/problem_diagnosis.png)
 
 ---
 
