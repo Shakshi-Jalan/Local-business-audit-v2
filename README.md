@@ -1,421 +1,423 @@
-# Local Business Audit – Restaurant Analysis V2
+# Local Business Audit V2 – Restaurant Competitive & Customer Feedback Analysis
 
 ## 📌 Project Overview
 
-This project analyzes customer reviews, ratings, complaints, sentiment, and menu prices of three local restaurants to understand their competitive performance.
+This project analyzes customer reviews, ratings, complaints, and menu prices of three local restaurants to understand how the target restaurant performs compared with its competitors.
 
-The project is an upgraded version of a previous restaurant audit. Version 2 uses **Python and Pandas for data cleaning and analysis**, **VADER for sentiment analysis**, and **Power BI for interactive visualization and business reporting**.
+Version 2 improves the original analysis by using Python and Pandas for data cleaning, sentiment analysis, exploratory analysis, and problem diagnosis before presenting the final insights through a Power BI dashboard.
 
-### Restaurants Analyzed
-
-- Dwaraka Grand
-- Sri Krishna Aramane
-- Udupi Swada
+The project focuses on identifying customer pain points, comparing restaurant performance, and understanding whether the target restaurant's premium pricing is aligned with customer ratings and feedback.
 
 ---
 
 ## 🎯 Business Question
 
-> **How does the target restaurant perform relative to its competitors, and does its premium pricing align with customer ratings and feedback?**
-
-The analysis focuses on identifying:
-
-- Customer sentiment
-- Major complaint categories
-- Problems associated with low ratings
-- Restaurant-level performance
-- Menu price differences
-- Potential value-for-money concerns
-- Priority areas for improvement
+**How does the target restaurant perform relative to its competitors, and does its premium pricing align with customer ratings and feedback?**
 
 ---
 
 ## 🎯 Project Objectives
 
 1. Compare the average ratings of the three restaurants.
-2. Analyze customer sentiment using VADER.
+2. Analyze customer sentiment from reviews.
 3. Identify the most common complaint categories.
-4. Identify problems appearing in low-rated reviews.
-5. Compare negative sentiment across complaint categories.
-6. Analyze restaurant-level menu prices.
-7. Compare price and rating performance.
-8. Create a priority score to identify important problem areas.
-9. Prepare analytical datasets for Power BI.
-10. Build an interactive three-page business dashboard.
+4. Identify the main problems appearing in low-rated reviews.
+5. Compare menu prices across restaurants.
+6. Provide data-driven recommendations for improvement.
 
 ---
 
-## 📂 Data Note
+## 📊 Dataset
 
-The review dataset used in this project contains **constructed/assumed review data for analysis purposes**.
+The project uses a constructed restaurant review dataset containing:
 
-The reviews and review dates should **not be interpreted as live scraped Google Reviews or verified real-world customer data**.
+- 300 customer reviews
+- 3 restaurants
+- 100 reviews per restaurant
+- Customer ratings from 1 to 5
+- Review text
+- Complaint categories
+- Restaurant information
+- Menu prices
 
-This project is intended to demonstrate a complete **data analytics workflow**, including data cleaning, sentiment analysis, exploratory analysis, business diagnosis, and dashboard development.
+### Main Data Sources
+
+- Review data
+- Restaurant information
+- Menu data
+
+> **Data Note:** The review dataset is constructed/assumed data created for analytical practice and is not a live scrape of Google Reviews. Review dates are not treated as verified real-world dates and are therefore not used for time-based conclusions.
 
 ---
 
-# 🔄 Project Workflow
+## 🔄 Project Workflow
 
-```text
-Raw Excel Data
-      ↓
-Python / Pandas
-      ↓
-Data Quality Checks
-      ↓
-Exploratory Data Analysis
-      ↓
-VADER Sentiment Analysis
-      ↓
-Complaint Category Analysis
-      ↓
-Low-Rating Problem Analysis
-      ↓
-Priority Score
-      ↓
-Restaurant & Menu Price Benchmarking
-      ↓
-CSV Export
-      ↓
-Power BI
-      ↓
-Interactive Business Dashboard
-🛠️ Tech Stack
-Programming & Analysis
-Python
-Pandas
-Sentiment Analysis
-VADER Sentiment Analyzer
-Visualization & Reporting
-Microsoft Power BI
-DAX
-Data Source
-Excel
-🐍 Python Analysis
+Excel / CSV Data  
+↓  
+Python + Pandas  
+↓  
+Data Cleaning & Validation  
+↓  
+Sentiment Analysis using VADER  
+↓  
+Exploratory Data Analysis  
+↓  
+Complaint & Problem Analysis  
+↓  
+Competitor Benchmarking  
+↓  
+Final Analytical CSVs  
+↓  
+Power BI Dashboard  
+↓  
+Business Insights & Recommendations
 
-The Python script performs several stages of analysis.
+---
 
-1. Data Loading
+## 🛠️ Tools & Technologies
 
-The project reads the review and menu data from the Excel workbook using Pandas.
+- Python
+- Pandas
+- VADER Sentiment Analysis
+- Excel
+- Power BI
+- DAX
+- GitHub
 
-The review dataset contains 300 review records across the three restaurants.
+---
 
-2. Data Quality Check
+# 🐍 Python Analysis
 
-The script checks:
+The main analysis was performed using Python and Pandas.
 
-Dataset shape
-Column names
-Missing values
-Duplicate rows
-Data types
+The Python script includes:
 
-This ensures that the data is suitable for further analysis.
+- Data loading
+- Data quality checks
+- Duplicate and missing-value checks
+- Restaurant-level analysis
+- Rating analysis
+- Sentiment analysis
+- Complaint category analysis
+- Low-rating problem analysis
+- Priority scoring
+- Menu price analysis
+- Competitor benchmarking
+- Exporting final analytical datasets
 
-3. Restaurant Analysis
+---
 
-The analysis calculates:
+## 🧹 Data Quality Checks
 
-Number of reviews per restaurant
-Average rating per restaurant
+The dataset was checked for:
 
-This provides the initial comparison of restaurant performance.
+- Missing values
+- Duplicate records
+- Data types
+- Review counts by restaurant
 
-4. VADER Sentiment Analysis
+The dataset contains **300 reviews**, with **100 reviews for each restaurant**.
 
-VADER is applied to the review text to generate a compound sentiment score.
+---
 
-The score is classified into:
+# 😊 Sentiment Analysis
 
-Positive
-Neutral
-Negative
+VADER was used to calculate sentiment scores from the review text.
 
-using predefined thresholds.
+Each review was classified as:
 
-5. Sentiment Validation
+- Positive
+- Neutral
+- Negative
 
-The VADER results are compared with the existing manual sentiment labels.
+The VADER results were compared with the manually assigned sentiment labels.
 
-The project calculates the percentage of reviews where the manual sentiment and VADER sentiment agree.
+### VADER Validation
 
-Result
+**Manual vs VADER agreement: 79.33%**
 
-VADER agreement: 79.33%
+This validation was performed to check how closely the automated sentiment classification matched the existing manual labels.
 
-This indicates that VADER broadly agrees with the manually assigned sentiment, while also identifying some differences.
+---
 
-6. Rating–Sentiment Mismatch
+# ⭐ Rating Analysis
 
-The project identifies reviews where:
+### Average Rating
 
-Rating is ≤ 2 but VADER sentiment is Positive
-Rating is ≥ 4 but VADER sentiment is Negative
+| Restaurant | Average Rating |
+|---|---:|
+| Dwaraka Grand | 3.34 |
+| Sri Krishna Aramane | 2.93 |
+| Udupi Swada | 3.34 |
 
-This helps identify cases where star ratings and review text tell different stories.
+Dwaraka Grand and Udupi Swada have the same average rating of **3.34**, while Sri Krishna Aramane has the lowest average rating at **2.93**.
 
-7. Complaint Analysis
+### Negative Review Percentage
 
-Complaint categories are analyzed to understand what customers discuss most frequently.
+| Restaurant | Negative Reviews |
+|---|---:|
+| Dwaraka Grand | 27% |
+| Sri Krishna Aramane | 41% |
+| Udupi Swada | 30% |
 
-The project calculates:
+Sri Krishna Aramane has the highest percentage of negative reviews.
 
-Overall complaint distribution
-Complaint distribution by restaurant
-Percentage distribution of complaint categories within each restaurant
-Major Complaint Categories
-Food Quality
-Overall Experience
-Hygiene
-Staff Behaviour
-Service
-Ambience
-Pricing
-8. Negative Sentiment by Complaint Category
+---
 
-The project calculates the percentage of negative VADER sentiment within each complaint category.
+# 🗣️ Complaint Analysis
 
-This helps distinguish between categories that are simply common and categories that are associated with stronger negative sentiment.
+The most common complaint categories across all restaurants were:
 
-9. Restaurant + Complaint Analysis
+| Complaint Category | Reviews |
+|---|---:|
+| Food Quality | 153 |
+| Overall Experience | 57 |
+| Hygiene | 25 |
+| Staff Behaviour | 19 |
+| Service | 16 |
+| Ambience | 11 |
+| Pricing | 11 |
+| Menu Variety | 4 |
+| Online Delivery | 3 |
+| Food Quantity | 1 |
 
-A combined analysis is created using:
+### Key Observation
 
-Restaurant
-Complaint Category
-Total Reviews
-Negative Reviews
-Negative Percentage
+**Food Quality** is the most common complaint category, with **153 reviews**.
 
-This provides a restaurant-specific view of customer problems.
+However, complaint frequency alone was not used to decide which problems should be addressed first. Low ratings and negative sentiment were also considered.
 
-🚨 Low-Rating Problem Analysis
+---
 
-Reviews with ratings of 1 or 2 stars are analyzed separately.
+# 🔎 Low-Rating Problem Analysis
 
-For each restaurant and complaint category, the project calculates:
+Reviews with ratings of **1 or 2 stars** were analyzed separately to identify problems associated with poor customer experiences.
 
-Number of low-rating reviews
-Number of negative VADER reviews
-Negative percentage
+A project-defined **Priority Score** was used to combine the number of low-rated reviews with their negative sentiment percentage.
 
-This helps identify problems specifically associated with poor-rated experiences.
+**Priority Score = Low-Rating Reviews × Negative Sentiment %**
 
-🧮 Priority Score
+> **Note:** This is a project-defined prioritization heuristic. It is not a formal statistical or causal metric. It is used only to help rank recurring customer problems.
 
-A project-defined heuristic is used to prioritize problems:
+### Main Problem Areas
 
-Priority Score =
-Low-Rating Reviews × Negative Percentage
+#### Dwaraka Grand
 
-The score combines problem volume and negative sentiment.
+- Food Quality
+- Service
+- Staff Behaviour
 
-Note: This is a project-defined prioritization heuristic, not a formal statistical measure.
+#### Sri Krishna Aramane
 
-The highest-scoring problems can then be used to guide business recommendations.
+- Food Quality
+- Overall Experience
+- Staff Behaviour
 
-⭐ Key Findings
-Restaurant Ratings
-Restaurant	Average Rating
-Dwaraka Grand	3.34
-Sri Krishna Aramane	2.93
-Udupi Swada	3.34
+#### Udupi Swada
 
-Dwaraka Grand and Udupi Swada have the same average rating, while Sri Krishna Aramane has the lowest average rating.
+- Hygiene
+- Food Quality
+- Staff Behaviour
 
-😡 Negative Sentiment
-Restaurant	Negative Reviews
-Dwaraka Grand	27%
-Sri Krishna Aramane	41%
-Udupi Swada	30%
+---
 
-Sri Krishna Aramane has the highest percentage of negative reviews among the three restaurants.
+# 💰 Pricing Analysis
 
-🍽️ Most Common Complaint
+Average menu prices were compared across the three restaurants.
 
-Food Quality is the most common complaint category, with 153 reviews across the dataset.
+| Restaurant | Average Menu Price | Average Rating |
+|---|---:|---:|
+| Dwaraka Grand | ₹114 | 3.34 |
+| Sri Krishna Aramane | ₹88 | 2.93 |
+| Udupi Swada | ₹98 | 3.34 |
 
-Other important complaint areas include:
+Dwaraka Grand's average menu price is approximately **16% higher than Udupi Swada**, while both restaurants have the same average rating of **3.34**.
 
-Overall Experience
-Hygiene
-Staff Behaviour
-Service
-💰 Pricing
+This raises a **value-for-money question** for the target restaurant.
 
-Average menu prices:
+> The analysis does not establish that higher prices cause lower customer satisfaction. The pricing comparison is used to identify a potential value-for-money concern.
 
-Restaurant	Average Menu Price
-Dwaraka Grand	₹114
-Udupi Swada	₹98
-Sri Krishna Aramane	₹88
+---
 
-Dwaraka Grand has the highest average menu price.
+# 📈 Key Findings
 
-Dwaraka is approximately 16% more expensive than Udupi Swada while having the same average rating of 3.34.
+### 1. Dwaraka Grand does not have the highest rating
 
-This raises a value-for-money question, but the analysis does not establish that price causes dissatisfaction.
+Dwaraka Grand has an average rating of **3.34**, equal to Udupi Swada.
 
-🤖 Sentiment Validation
+Sri Krishna Aramane has the lowest average rating at **2.93**.
 
-VADER sentiment showed 79.33% agreement with the existing manual sentiment labels.
+### 2. Sri Krishna Aramane has the highest negative sentiment
 
-The analysis also found some cases where rating and text sentiment did not match, showing that customer ratings and written feedback can provide different signals.
+Negative reviews account for:
 
-🔎 Restaurant-Level Problem Areas
-Dwaraka Grand
+- Dwaraka Grand — **27%**
+- Sri Krishna Aramane — **41%**
+- Udupi Swada — **30%**
 
-Key problem areas identified:
+### 3. Food Quality is the biggest complaint category
 
-Food Quality
-Service
-Staff Behaviour
-Sri Krishna Aramane
+Food Quality appears in **153 reviews**, making it the most common complaint category across the dataset.
 
-Key problem areas identified:
+### 4. Dwaraka Grand has a pricing-value concern
 
-Food Quality
-Overall Experience
-Staff Behaviour
-Udupi Swada
+Dwaraka Grand has:
 
-Key problem areas identified:
+- Average menu price: **₹114**
+- Average rating: **3.34**
 
-Hygiene
-Food Quality
-Staff Behaviour
-📊 Power BI Dashboard
+Udupi Swada has:
 
-The final Power BI dashboard contains three pages.
+- Average menu price: **₹98**
+- Average rating: **3.34**
 
-Page 1 — Executive Overview
+Therefore, Dwaraka Grand charges a higher average price without having a higher average rating than Udupi Swada.
 
-The overview page compares the three restaurants using:
+### 5. Different restaurants have different problem areas
 
-Average Restaurant Rating
-Average Negative Review %
-Average Menu Price
-Average Rating by Restaurant
-Rating Distribution
-Negative Review % by Restaurant
-Price vs. Rating by Restaurant
-Main Question Answered
+The low-rating analysis shows that the main customer problems are not identical across restaurants.
 
-How are the three restaurants performing overall?
+This allows recommendations to be more specific rather than applying the same solution to every restaurant.
 
-Page 2 — Customer Sentiment & Complaints
+---
 
-This page focuses on customer feedback.
+# 📊 Power BI Dashboard
 
-It includes:
+The final Power BI dashboard contains **3 pages**.
 
-Total Reviews
-Negative Reviews
-Customer Sentiment Distribution
-Complaint Category Distribution
-Negative Sentiment % by Complaint Category
-Complaint Categories by Restaurant
-Main Question Answered
+## 1. Overview
 
-What are customers talking about and complaining about?
+This page provides an executive-level summary of:
 
-Page 3 — Problem Diagnosis
+- Average restaurant rating
+- Average negative review percentage
+- Average menu price
+- Rating comparison
+- Rating distribution
+- Negative review percentage
+- Price vs rating comparison
 
-This page focuses on identifying actionable problem areas.
+![Overview Dashboard](overview.png)
 
-It includes:
+---
 
-Low-Rating Reviews
-Negative Low-Rating Reviews
-Highest Priority Problem
-Problem Priority by Restaurant
-Low-Rating Problem Analysis
-Main Question Answered
+## 2. Customer Sentiment & Complaints
 
-Which problems should the restaurant prioritize for improvement?
+This page focuses on:
 
-🖼️ Dashboard Preview
-1. Overview
+- Customer sentiment distribution
+- Complaint category distribution
+- Negative sentiment by complaint category
+- Complaint categories by restaurant
 
-2. Customer Sentiment & Complaints
+![Customer Sentiment & Complaints](customer_sentiment_complaints.png)
 
-3. Problem Diagnosis
+---
 
-💡 Business Recommendations
+## 3. Problem Diagnosis
 
-Based on the analysis, the target restaurant should focus on:
+This page focuses on:
 
-1. Improve Food Quality
+- Low-rated reviews
+- Negative low-rated reviews
+- Priority problems
+- Low-rating problem categories
+- Restaurant-level problem comparison
 
-Food Quality is the largest complaint category and appears as a major problem in low-rated reviews.
+![Problem Diagnosis](problem_diagnosis.png)
 
-Possible actions:
+---
 
-Monitor food consistency
-Review frequently criticized dishes
-Improve preparation and quality checks
-Track recurring food-related complaints
-2. Improve Service
+# 💡 Business Recommendations
 
-Service-related complaints should be monitored, particularly where they contribute to low-rated experiences.
+### 1. Improve Food Quality
 
-Possible actions:
+Food Quality is the largest complaint category.
 
-Monitor service delays
-Improve order handling
-Track recurring service complaints
-3. Improve Staff Behaviour
+The restaurant should investigate recurring food-related complaints and focus on consistency in:
 
-Staff behaviour appears as an important problem area for multiple restaurants.
+- Taste
+- Freshness
+- Preparation
+- Portion consistency
 
-Training and customer-service monitoring could help improve the overall customer experience.
+### 2. Improve Service
 
-4. Strengthen Value Proposition
-
-Dwaraka Grand has the highest average menu price but the same average rating as Udupi Swada.
-
-Instead of immediately reducing prices, the restaurant could focus on communicating and improving the value customers receive.
+Service-related complaints should be monitored, especially where they appear repeatedly in low-rated reviews.
 
 Possible actions include:
 
-Value-based meal combinations
-Better portion/value perception
-Promotions on selected dishes
-Highlighting quality improvements
-⚠️ Limitations
+- Reducing waiting time
+- Improving order handling
+- Monitoring peak-hour service
+- Improving staff coordination
 
-This project has several limitations:
+### 3. Improve Staff Behaviour
 
-The review dataset is constructed/assumed rather than live scraped customer data.
-The analysis contains only 300 reviews.
-Only three restaurants are included.
-The sample may not represent the complete customer base.
-VADER is a general sentiment-analysis tool and may not perfectly understand every review.
-Rating and sentiment mismatches show that automated sentiment analysis should be interpreted alongside the original review text.
-The Priority Score is a project-defined heuristic.
-The analysis identifies patterns and associations but does not establish causal relationships.
-Very small complaint categories should not be interpreted strongly.
-Review dates are not treated as verified real-world dates and are therefore not used for time-based conclusions.
-🚀 Future Improvements
+Staff Behaviour is an important problem area in low-rated reviews.
 
-Possible future improvements include:
+Training can focus on:
 
-Use a larger real-world review dataset.
-Collect reviews across a longer time period.
-Use NLP models better suited for restaurant reviews.
-Perform topic modeling to automatically discover complaint themes.
-Track sentiment trends over time using verified review dates.
-Expand competitor dish-level price benchmarking.
-Build automated data pipelines for regularly updated dashboards.
-Add statistical testing to evaluate relationships between variables.
-📁 Project Structure
+- Customer communication
+- Professional behaviour
+- Handling complaints
+- Responsiveness
+
+### 4. Strengthen Value for Money
+
+Since Dwaraka Grand has a higher average menu price than Udupi Swada while having the same average rating, the restaurant should focus on increasing perceived value.
+
+Possible strategies include:
+
+- Value-based meal combinations
+- Targeted promotions
+- Better portion/value communication
+- Improving high-demand dishes
+
+A blanket price reduction is not necessarily required.
+
+### 5. Monitor Customer Feedback Regularly
+
+Customer reviews can be tracked regularly to identify whether complaint categories and sentiment improve after operational changes.
+
+---
+
+# ⚠️ Limitations
+
+1. The review dataset is constructed/assumed and is not a live Google Reviews dataset.
+2. Review dates are not verified real-world dates and are not used for time-based analysis.
+3. Sentiment analysis can misclassify some reviews, especially mixed or context-dependent statements.
+4. The Priority Score is a project-defined heuristic and should not be interpreted as a formal statistical measure.
+5. The analysis identifies associations and patterns but does not prove that one factor causes another.
+6. Menu prices represent the dataset used for this project and may not reflect current real-world prices.
+7. The dataset contains only three restaurants, so the findings should not be generalized to the entire restaurant market.
+
+---
+
+# 🚀 Future Improvements
+
+The project can be extended by:
+
+- Using real review data through permitted data sources
+- Adding review-level time analysis using verified dates
+- Applying more advanced NLP techniques
+- Using topic modeling to discover complaint themes automatically
+- Adding customer segmentation
+- Tracking sentiment changes over time
+- Adding competitor price tracking
+- Building automated Power BI data refresh
+- Adding statistical testing to evaluate relationships between price, ratings, and sentiment
+
+---
+
+# 📁 Project Structure
+
+```text
 Local-business-audit-v2/
 │
+├── README.md
 ├── analysis.py
 ├── requirements.txt
-├── README.md
 │
 ├── overview.png
 ├── customer_sentiment_complaints.png
@@ -428,50 +430,45 @@ Local-business-audit-v2/
     ├── review_analysis.csv
     ├── dish_price_comparison.csv
     └── low_rating_analysis.csv
-▶️ How to Run the Python Analysis
-1. Install the required libraries
+▶️ How to Run
+1. Clone the repository
+git clone https://github.com/Shakshi-Jalan/Local-business-audit-v2.git
+2. Open the project folder
+cd Local-business-audit-v2
+3. Install the required libraries
 pip install -r requirements.txt
+4. Add the Excel workbook locally
 
-Or install them manually:
+Place the project Excel workbook in the same folder as analysis.py.
 
-pip install pandas openpyxl vaderSentiment
-2. Keep the Excel file and Python script in the same folder
-analysis.py
-Local business audit.xlsx
-3. Run the script
+The raw workbook is not included in the public repository.
+
+5. Run the analysis
 python analysis.py
 
-The script will generate the analytical CSV files required for Power BI.
+The script generates the analytical CSV files used for the Power BI dashboard.
 
-📤 Output Files
-
-The Python script generates:
-
-File	Purpose
-restaurant_benchmark.csv	Restaurant price, rating and negative-review benchmark
-problem_analysis.csv	Restaurant-level complaint and negative sentiment analysis
-rating_summary.csv	Low-rating and high-rating rates
-review_analysis.csv	Final review-level analytical dataset
+📄 Output Files
+File	Description
+restaurant_benchmark.csv	Restaurant-level rating, sentiment and price benchmark
+problem_analysis.csv	Complaint category and negative sentiment analysis
+rating_summary.csv	Rating distribution summary
+review_analysis.csv	Review-level analysis with VADER sentiment
 dish_price_comparison.csv	Dish-level price comparison
 low_rating_analysis.csv	Low-rating problem and priority analysis
-
-The CSV outputs are then used to build the Power BI dashboard.
-
-🧰 Skills Demonstrated
-
-This project demonstrates practical skills in:
-
+🧠 Skills Demonstrated
 Data Cleaning
+Data Validation
 Exploratory Data Analysis
+Python
 Pandas
 Sentiment Analysis
 VADER
-Data Aggregation
-GroupBy
-Crosstab Analysis
-Business Problem Diagnosis
+Customer Feedback Analysis
+Complaint Categorization
 Competitor Benchmarking
-Pricing Analysis
+Business Problem Solving
+Data Visualization
 Power BI
 DAX
 Dashboard Design
@@ -480,10 +477,13 @@ Business Recommendations
 
 Shakshi Jalan
 
-Aspiring Data Analyst | Python | SQL | Power BI | Excel | Data Visualization
+Electronics & Telecommunication Engineering Student
+Dayananda Sagar College of Engineering, Bengaluru
+
+Aspiring Data Analyst
 
 ⭐ Project Summary
 
-This project demonstrates how raw customer review and menu data can be transformed into business insights using Python and Power BI.
+This project demonstrates an end-to-end analytics workflow where raw customer review and restaurant pricing data is transformed into business insights using Python, Pandas, VADER, and Power BI.
 
-The analysis moves beyond basic dashboarding by combining customer sentiment, complaint categories, low-rating analysis, pricing, competitor benchmarking, and problem prioritization to identify areas where a restaurant can improve its competitive position.
+The main goal is not just to build a dashboard, but to use data to understand customer problems, competitor performance, pricing position, and possible business actions.
