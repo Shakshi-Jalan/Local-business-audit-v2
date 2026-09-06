@@ -1,0 +1,317 @@
+Review id,Restaurant,Review date,Rating,Reviewer,Review,Complaint_Category,Sentiment,VADER_Score,VADER_Sentiment,Sentiment_Mismatch
+1,Dwaraka Grand,2026-05-26,1,Chandesh S,"Worst and horrible, doesn’t even deserve 1star. Ordered full meals and it was so bad in taste full of salt! Dono who people are even ordering here.",Food Quality,Negative,-0.9244,Negative,False
+2,Dwaraka Grand,2026-04-30,4,Raghu P,Function hall is decent enough for the 50 to 60. Food is delicious.,Ambience,Positive,0.5719,Positive,False
+3,Dwaraka Grand,2026-03-22,1,Jayaprakash Arvety,Worst service by the hotel workers,Service,Negative,-0.6249,Negative,False
+4,Dwaraka Grand,2026-03-20,1,Abhishek Ramarao,One of the worst quantity. Too much overpriced but the quantity is way too less. If you have crores of money but low apatite then visit or order from this restaurant. They have charged ₹200 for a veg Biryani but the quantity isn't equal to ₹100 biryani. They won't provide enough chutney for tiffin items like idlies. Simply the worst. Previously around 6 months back it used to be good but now it's simply the worst.,Food Quantity,Negative,-0.9118,Negative,False
+5,Dwaraka Grand,2026-03-18,5,Ganesh S,Good for vegetarian food lovers,Overall Experience,Positive,0.743,Positive,False
+6,Dwaraka Grand,2025-12-27,5,Pradeep Kumar Shetty,Good service and good stuff... With good tasteiiii.. ,Overall Experience,Positive,0.8271,Positive,False
+7,Dwaraka Grand,2025-12-22,5,Manu M Udupa,Great north indian thali. Loved the kulcha,Food Quality,Positive,0.8402,Positive,False
+8,Dwaraka Grand,2025-11-13,1,Aprameyan S,I ordered Open butter masala dosa but they served same but there is no butter instead they put a kind of cured,Food Quality,Negative,-0.4215,Negative,False
+9,Dwaraka Grand,2025-10-17,1,Padmini,Ordered idly today sent all the broken idly and wen I called the hotel the manager spoke so adamantly. That do you eat without breaking it at you home.Nonsense how can one talk like that wen it’s paid. And said you should have common sense .. how can one speak like to the customer,Staff Behaviour,Negative,0.2263,Positive,True
+10,Dwaraka Grand,2025-09-23,1,Ranjan S Bhat,You got this fresh food with Cockroach  piece in it when I ordered through Swiggy..,Hygiene,Negative,0.3869,Positive,True
+11,Dwaraka Grand,2025-08-02,5,Saraswathi D,I  had the most delicious food and service was very good.,Food Quality,Positive,0.8012,Positive,False
+12,Dwaraka Grand,2025-06-29,5,Punith B,The food was so delicious and i like the service thankyou,Food Quality,Positive,0.8042,Positive,False
+13,Dwaraka Grand,2025-06-03,3,Vaishnavi G,The food is not so great guys and also it is very expensive compared to other restaurants nearby,Food Quality,Negative,-0.6296,Negative,False
+14,Dwaraka Grand,2025-05-25,3,Sreekanth U,It's fair. Not up to the mark!,Overall Experience,Neutral,0.3802,Positive,False
+15,Dwaraka Grand,2025-05-18,1,Aaquib Aziz,Worst Quality of Food and bad behaviour from staff,Food Quality,Negative,-0.8225,Negative,False
+16,Dwaraka Grand,2025-05-12,1,Masnoon Duwain Masnoon Duwain,"Worst food
+I order Gobi Manchurian... It is not a Manchurian it is Gobi sabzi
+Worst in taste",Food Quality,Negative,-0.8481,Negative,False
+17,Dwaraka Grand,2025-05-12,5,Sridhar Raju,"Aptly located near Dayanand college. Makes it ideal place for eat out, stay. Decently maintained. Small convention centre for a medium sized gathering.",Ambience,Positive,0.5267,Positive,False
+18,Dwaraka Grand,2025-06-15,5,S N Varuna,"Have been to the restaurant.
+The place was decent and their food too.
+The hotel is located very near to college and is one of the go to places here .
+The restaurant serves good starters and thalis.",Food Quality,Positive,0.4404,Positive,False
+19,Dwaraka Grand,2025-06-23,1,Samuel Manasay,Huge huge delay in serving food,Service,Negative,0.3182,Positive,True
+20,Dwaraka Grand,2025-05-11,4,Ashique Mlore,Restaurant is as good as any darshini.,Overall Experience,Neutral,0.4404,Positive,False
+21,Dwaraka Grand,2025-05-20,5,Dr. Suushhma,Rava dosa & coffee are really good & tasty.,Food Quality,Positive,0.4927,Positive,False
+22,Dwaraka Grand,2025-05-16,5,Shashank Raj,Food was good,Food Quality,Positive,0.4404,Positive,False
+23,Dwaraka Grand,2024-08-28,1,Umesh V,"Rotten chutney with dosa.
+After enquiring they said they had only this chutney",Hygiene,Negative,-0.5106,Negative,False
+24,Dwaraka Grand,2024-09-06,1,R Vani,Very bad food taste and worst chutney I have ever tasted. I don't know why are people even going to this restaurant. ,Food Quality,Negative,-0.8357,Negative,False
+25,Dwaraka Grand,2024-10-07,1,Sudheendra R,The Plain dosa was like papad. Tried 3 to 4 bites but since I could not take it I went to the person who made the dosa. By then the manager comes and throws an insulting comment saying I have eaten half of it. Pathetic service and worst I hospitality.,Food Quality,Negative,-0.9455,Negative,False
+26,Dwaraka Grand,2024-11-18,5,Bipen Dar Reang,Good food,Food Quality,Positive,0.4404,Positive,False
+27,Dwaraka Grand,2024-10-22,4,Shrinidhi Patil,Budget friendly food with good Quality and taste.,Pricing,Positive,0.7269,Positive,False
+28,Dwaraka Grand,2024-11-04,1,Rohith Nayak,horrible sandwich!!! we ordered 3 veg cheese grill sandwiches through swiggy but not even in 1 sandwich i could find cheese and too less veggies !!!,Food Quality,Negative,-0.5296,Negative,False
+29,Dwaraka Grand,2024-09-13,2,Harish C.S,"Previous food taste was very good, but now it is very bad",Food Quality,Negative,-0.624,Negative,False
+30,Dwaraka Grand,2024-08-22,5,Bharat Bhat,Nice South Indian Restaurant,Overall Experience,Positive,0.4215,Positive,False
+31,Dwaraka Grand,2024-12-12,1,Santosh P,"Food was very bad ,not hygiene
+Chinese items we ordered all were bad and not hot ,no taste ,we never expected it will be like this ,coz of that we didn't go to main course ,we had brought our relatives n ended up treating them bad food
+I would not recommended until they improve",Food Quality,Negative,-0.7897,Negative,False
+32,Dwaraka Grand,2023-05-08,5,Radha Nagaraj,"The taste was good, hygienic.speed service",Food Quality,Positive,0.4404,Positive,False
+33,Dwaraka Grand,2024-01-11,4,Naveen K,Good place for South Indian food,Overall Experience,Positive,0.4404,Positive,False
+34,Dwaraka Grand,2024-02-14,5,Suraksha G,Meals and service are  good.,Overall Experience,Positive,0.4404,Positive,False
+35,Dwaraka Grand,2025-03-06,1,Nitin Naik,Worst sevice with kind of good food,Service,Neutral,-0.3597,Negative,False
+36,Dwaraka Grand,2025-04-14,4,Huzaifa Anjum,has good food and doesn't break the bank.,Food Quality,Positive,0.4404,Positive,False
+37,Dwaraka Grand,2025-05-02,1,Abhishek Reddy. P,"We found a cockroach inside the panner butter masala and we never recomend u guys to visit this hotel
+Thank you",Hygiene,Negative,0.3612,Positive,True
+38,Dwaraka Grand,2025-03-17,1,Lokesh D C,"Pathetic service, 4 people took ages to serve 3 people",Service,Negative,-0.5719,Negative,False
+39,Dwaraka Grand,2025-01-19,1,Harsha Vardhan,Worst food and worst service ,Food Quality,Negative,-0.8481,Negative,False
+40,Dwaraka Grand,2024-08-18,5,Mahi Agarwal,"Food is just awesome.....have all variety of food from north
+Prices are also reasonable",Food Quality,Positive,0.0,Neutral,False
+41,Dwaraka Grand,2024-08-31,3,Sneha V M,Food taste was good but need to improve on fast service. The food seems to be pricy,Service,Neutral,0.7003,Positive,False
+42,Dwaraka Grand,2024-09-30,3,Diana D K,We had Masala Dosa and Mushroom biryani. Ground floor has self-service and AC serving hall is on first floor. Service is good. Masala dosa was crunchy and tasty. Mushroom biryani was above average. Overall it could have been a good dining experience but the washroom was not clean,Overall Experience,Neutral,0.0034,Neutral,False
+43,Dwaraka Grand,2024-07-01,1,Bharti Dusing,"We are the dining visitors in this hotel & have bad experience on the south India authentic tastes. The Kitchen staff is in-human & if you ask for some particular taste of food, then they are like this is how we prepare, have it if you like it Else don't visit here. They will straight away says ""Don't come here"" Not sure if they are aware about how the Service Industry & hospitality works. Also the managers will show as if they are trying to solve the matter & then suddenly they will disappear. They will charge for those ""Not completed/provided"" services also. So you pay money, get unwanted Taste & inhuman behavior. Pathetic services.",Staff Behaviour,Negative,-0.7041,Negative,False
+44,Dwaraka Grand,2024-08-05,5,Srinii Vasan,Good food at affordable price,Food Quality,Positive,0.4404,Positive,False
+45,Dwaraka Grand,2024-10-12,3,Kantharaj Mv,This is a good restaurant,Overall Experience,Positive,0.4404,Positive,False
+46,Dwaraka Grand,2024-06-22,5,Thisai Kannan,Service very good and the food amount affordable for rich people,Service,Positive,0.7778,Positive,False
+47,Dwaraka Grand,2023-11-27,4,Sushanth M,Food and service is average. Pongal and plain dosa is good but tea is sub par.,Food Quality,Neutral,0.2382,Positive,False
+48,Dwaraka Grand,2023-12-14,1,Sandy Divi,Worst experience staff are not all respond it took more than 45mins to serve even in the less crowd,Service,Negative,-0.6249,Negative,False
+49,Dwaraka Grand,2023-07-07,4,Latha  Maheshwari,Superb food,Food Quality,Positive,0.6249,Positive,False
+50,Dwaraka Grand,2023-09-10,4,Santhosh Yadav,Good ambience and delicious food at reasonable prices,Food Quality,Positive,0.765,Positive,False
+51,Dwaraka Grand,2023-08-22,4,Santosh Araballi,Well maintained and hygienic,Hygiene,Positive,0.2732,Positive,False
+52,Dwaraka Grand,2023-07-18,4,Suresh Sulikeri,"
+This is the only one hotel right now @ ks layout provides service at table, all others are self service type, good and polite staff, only Veg available and few items are too good in taste",Food Quality,Positive,0.7003,Positive,False
+53,Dwaraka Grand,2023-06-29,5,Nagesh,Good food,Food Quality,Positive,0.4404,Positive,False
+54,Dwaraka Grand,2023-10-01,4,Girish H,Great tasty food. Service time is too long. But you will really enjoy the taste.,Food Quality,Neutral,0.8068,Positive,False
+55,Dwaraka Grand,2023-09-14,4,Nagaraj D,Good hotel for healthy south Indian and North Indian dishes,Food Quality,Positive,0.6808,Positive,False
+56,Dwaraka Grand,2023-07-24,4,Viraj Kulkarni,"The highlight of my stay was the food at the hotel's vegetarian restaurant, which was outstanding. The self-service restaurant offered a wide variety of South Indian, North Indian, Chinese, and snack dishes, all of which were delicious and deserving of a 5/5 rating. But they don't have tea, only filter coffee.",Food Quality,Positive,0.6757,Positive,False
+57,Dwaraka Grand,2023-06-27,5,Yogesh Kumaraswamy,Nice veg restaurant,Overall Experience,Positive,0.4215,Positive,False
+58,Dwaraka Grand,2023-07-15,5,Ashwini M,Food was good But AC was not working...,Food Quality,Neutral,0.2382,Positive,False
+59,Dwaraka Grand,2023-08-06,1,Sanjay Rao,Hopeless food! Served spoiled food at function..,Hygiene,Negative,-0.5093,Negative,False
+60,Dwaraka Grand,2023-07-16,5,Bv Ramesh,"Best tiffin, special dosa.",Food Quality,Positive,0.7845,Positive,False
+61,Dwaraka Grand,2023-07-02,5,Abhishek Subbadevaru,"Very Good Place, Food was Awesome.. All service are Good.",Overall Experience,Positive,0.8805,Positive,False
+62,Dwaraka Grand,2023-09-22,4,Muralidharan Krishnamurthy,"Decent food, quick  service 1200 for 3 people that gets you couple of sabjis, four naan/roti, rice, lemon soda/lassi for each and soup",Food Quality,Positive,0.0,Neutral,False
+63,Dwaraka Grand,2023-07-09,5,Dr.Siddalingappagouda Biradar,Breakfast and Tea superb,Food Quality,Positive,0.6249,Positive,False
+64,Dwaraka Grand,2023-08-15,5,Pratima Vm,Very nice and affordable,Overall Experience,Positive,0.4754,Positive,False
+65,Dwaraka Grand,2023-04-07,4,Djanartanan Krishnamurthi,"Good food for Vegetarian, more varieties. Self service..",Food Quality,Positive,0.4404,Positive,False
+66,Dwaraka Grand,2023-04-12,4,Shreesh Joshi,The food was awesome,Food Quality,Positive,0.6249,Positive,False
+67,Dwaraka Grand,2023-05-23,4,Krish Raj,Good place to short eat out,Overall Experience,Positive,0.4404,Positive,False
+68,Dwaraka Grand,2023-04-11,5,Shwetha Ramesh,Hygiene along with food is good,Hygiene,Positive,0.4404,Positive,False
+69,Dwaraka Grand,2023-03-20,3,Gee Bee,Good Hotel. More like a Collage Canteen. Food is good not great. Coffee is good. One can visit sometimes,Food Quality,Neutral,0.8019,Positive,False
+70,Dwaraka Grand,2023-03-03,4,Pranam Thomas,Idly Sambar and Set Dosa is really tasty here.. although they never send extra sambar on Zomato orders even after requesting multiple times,Online Delivery,Neutral,0.0,Neutral,False
+71,Dwaraka Grand,2023-02-18,5,Rajath Bhajanehatty,Taste and service is good,Overall Experience,Positive,0.4404,Positive,False
+72,Dwaraka Grand,2023-02-21,5,Manjunath Sangai,Good Food..... Nice taste,Food Quality,Positive,0.6908,Positive,False
+73,Dwaraka Grand,2023-02-28,1,Yaseen Adnan, I had a butter Masala dosa and kesari bath. There was no butter in Butter masala dosa. The palya gave proxy for its absence. Very disappointed. I am a Mysorean and we put butter above the Masala dosa. When asked for butter the staff told it is inside and I had to spend my 15mins in digging for butter but couldn't find. Management Please improvise.,Food Quality,Negative,-0.6416,Negative,False
+74,Dwaraka Grand,2023-01-31,3,Saagar Ar,"Good place for breakfast items, like Idly and Dosas.",Food Quality,Positive,0.6597,Positive,False
+75,Dwaraka Grand,2023-01-26,5,Suryakant Singh,One of the best vegetarian hotel,Overall Experience,Positive,0.6369,Positive,False
+76,Dwaraka Grand,2023-01-21,5,Raghunandan Kavi,Roti dal fry was awesome!.,Food Quality,Positive,0.6588,Positive,False
+77,Dwaraka Grand,2023-01-19,3,Sindhu K,Food is little spicy here. You need to specifically mention to reduce spice while ordering.,Food Quality,Neutral,0.0,Neutral,False
+78,Dwaraka Grand,2023-01-16,4,Madhu T P,We had South & North Indian meals..both dishes tastes are fine.service is average..,Overall Experience,Neutral,0.0,Neutral,False
+79,Dwaraka Grand,2023-01-12,3,Ambika Naik,Decent place for a quick lunch or snack near DSCE,Overall Experience,Positive,0.0,Neutral,False
+80,Dwaraka Grand,2023-01-12,5,Koshal Sharma,dosa idli charts test very good,Food Quality,Positive,0.4927,Positive,False
+81,Dwaraka Grand,2023-01-10,5,Vihaan Alt,Food is great. Lots of options to choose from,Food Quality,Positive,0.6249,Positive,False
+82,Dwaraka Grand,2023-01-09,3,Ishu Dhariwal,It's a nice place to have breakfast. Has many varieties of dosa. Their Mysore Masala Dosa is the best. I loved it. Their coconut chutney is also very delicious. I did not like their sambhar because it was sweet. But you can definitely try this place out.,Food Quality,Positive,0.9089,Positive,False
+83,Dwaraka Grand,2023-01-09,2,Marble And Granite Cleaning Chemicals,"Everything is ok except cashier, rude behaviour,lazy and careless attitude, always busy in Mobile,",Staff Behaviour,Negative,-0.5106,Negative,False
+84,Dwaraka Grand,2023-01-07,3,P.M Mahadev,Nice point to meet over a cup of coffee,Ambience,Positive,0.4215,Positive,False
+85,Dwaraka Grand,2023-01-24,5,Nandan Godbole,Tasty food,Food Quality,Positive,0.0,Neutral,False
+86,Dwaraka Grand,2023-01-20,4,Saifoddin Quraishi,Food is good,Food Quality,Positive,0.4404,Positive,False
+87,Dwaraka Grand,2023-01-06,4,Souharda,"Ambience, Location Restaurant is not good",Ambience,Negative,-0.3412,Negative,True
+88,Dwaraka Grand,2023-01-06,4,Rashmi Ranganath,Good restaurants with south and north Indian dishes,Food Quality,Positive,0.4404,Positive,False
+89,Dwaraka Grand,2023-01-06,3,Rathan G,"Visited for baby shower, food was average, the food was served late one after one, long gap to wait to get next food ",Service,Negative,0.0,Neutral,False
+90,Dwaraka Grand,2023-01-05,4,C R Shyam Kumar,Loved the food,Food Quality,Positive,0.5994,Positive,False
+91,Dwaraka Grand,2023-04-03,1,Raghavendra Ramakrishna,If they had exhausted the dish they should not issue token I was served panipuri made with masala dosa potato stuffing it was served as if they are doing charity,Food Quality,Negative,0.0772,Positive,True
+92,Dwaraka Grand,2023-04-19,4,Himu Himaja,Nice hotel with lot of items. Liked it,Menu Variety,Positive,0.6808,Positive,False
+93,Dwaraka Grand,2023-04-13,4,Aaliya Tabassum,Tea is sooo good here..Alsp good for veg south indian food,Food Quality,Positive,0.7003,Positive,False
+94,Dwaraka Grand,2023-01-01,1,Sandeep Rangaswamy,Food is not good,Food Quality,Negative,-0.3412,Negative,False
+95,Dwaraka Grand,2022-12-31,1,Naveena M,Taste is very Bad price is very high,Food Quality,Negative,-0.5849,Negative,False
+96,Dwaraka Grand,2022-12-26,3,Yashwanth Kumar H A,Taste is good though but the cost is very high. Hotel is well maintained.,Pricing,Neutral,0.5574,Positive,False
+97,Dwaraka Grand,2022-12-24,3,Rakshithkumar N A,Not worth high cost and taste was average.,Pricing,Negative,-0.1695,Negative,False
+98,Dwaraka Grand,2022-12-15,2,Mohan Raja,Strictly below average food and experience despite high prices. Won't recommend.,Food Quality,Negative,-0.2755,Negative,False
+99,Dwaraka Grand,2022-12-12,1,Vishwanath Achari,"It's a third class hotel... Food is always bad .. i tired 4times, still same . Over priced menu ..",Food Quality,Negative,-0.7506,Negative,False
+100,Dwaraka Grand,2022-12-09,5,Atchaiah Pasupuleti,The food in the restaurant in ground floor is very good and tasty.,Food Quality,Positive,0.4927,Positive,False
+101,Udupi Swada,2026-06-28,2,Madhumohan Ajv,Place has a very dirty smell and unclean.Food is below average.Not hygienic at all.Wont recommend.,Hygiene,Negative,-0.1761,Negative,False
+102,Udupi Swada,2026-06-24,2,Bhuvanesh Shetty,"When customer say food is not good with one or few bite it should be replaced,here they argue it is not bad.hotels with name as udupi has some standard ,don't spoil that",Staff Behaviour,Negative,-0.5867,Negative,False
+103,Udupi Swada,2026-06-23,4,Kishor B,Value for money Good food Good Service,Overall Experience,Positive,0.802,Positive,False
+104,Udupi Swada,2026-06-11,5,"
+Gurupreeth S",Very good food,Food Quality,Positive,0.4927,Positive,False
+105,Udupi Swada,2026-06-12,5,God Account,Very Good Food,Food Quality,Positive,0.4927,Positive,False
+106,Udupi Swada,2026-05-28,5,Mohammed Khalandar,"Very good, nice",Overall Experience,Positive,0.7408,Positive,False
+107,Udupi Swada,2026-05-27,4,Megha Bhat,Good food,Food Quality,Positive,0.4404,Positive,False
+108,Udupi Swada,2026-05-26,3,Sunil Hegde,Food is not that much great taste. Especially dosa could be better.,Food Quality,Negative,-0.1012,Negative,False
+109,Udupi Swada,2026-05-24,5,Sachin Ambedkar,Tasty food with a good atmosphere.,Food Quality,Positive,0.4404,Positive,False
+110,Udupi Swada,2026-05-21,1,Vijay Singh,We ordered Kadhai Paneer and roti and mushroom Biryani food was very bad Coock don't know how to make kadai paneer Worst hotel,Food Quality,Negative,-0.8357,Negative,False
+111,Udupi Swada,2026-05-18,1,Aaliya Shaik,The worst place i have ever seen the people who serve food over here are very rude they fight with customers me and my husband visited this place today we were waiting for 30 minutes still our order wasn't given to which the person standing in the counter started arguing and he is giving the same order for the people who came after us very cheap and the person sitting in the bill counter doesn't even bother about the customer. Very worst doesn't even deserve a star.,Staff Behaviour,Negative,-0.935,Negative,False
+112,Udupi Swada,2026-05-17,1,Anirudha Athani,"This is one of the worst Udupi branches I’ve visited. Prices keep increasing almost every month with no apparent justification, and the quality of service doesn’t match what they charge. On top of that, one of the staff members, who is also a co-owner, has a very poor attitude and behaves unprofessionally with customers.",Pricing,Negative,-0.8357,Negative,False
+113,Udupi Swada,2026-05-13,3,Shridharsing Hajeri,Average taste,Food Quality,Negative,0.0,Neutral,False
+114,Udupi Swada,2026-05-10,1,Rohan Roxy,"One of the most worst restaurant in kumarswamy layout, go there only if you want to get your health deteriorated and fall sick with stomach infection. The food taste is pathetic, saw other customers complaint of ants and insects in their food served, also you can find rats and rodents walking around inside kitchen floor such is the hygeine of this place ,the staff is utter rude they can even give extra sauce or even spoon to eat and behave like rowdies , one of the chef was scratching his underarm and his butt and touching the foods with same hand. Food authority should confiscate this place soon.",Hygiene,Negative,-0.8906,Negative,False
+115,Udupi Swada,2026-04-29,1,Harish Vishvanath,"Not good some of the dishes are not good in taste and are priced sky high with less quantity, service is delayed at times , some of the dishes not even matches the name in menu for Hyderabad biryani they are giving normal rice bhath which has brinjal and capsicum in it and taste is either too spicy or below average.",Food Quality,Negative,-0.5126,Negative,False
+116,Udupi Swada,2026-04-26,1,Chethana Kiran,Worst ... Worst service ... Employees at serving counter act like super herooos .. they teasing customer like jokers .. how management train them don't know ... And they serve food very quikly to girls or ladies men should wait long time ...we can guess how wl management people could be by seeing these serving jokers .....waste of money and no respect .... Go to street vendors they can serve better taste and give respect to customer...,Staff Behaviour,Negative,0.0119,Neutral,False
+117,Udupi Swada,2026-04-22,1,Kiran M,"Don't go for this Udupi swada hotel don't order any food, don't waste time..price is very high quality is low quality..quantity is very less , low quantity ",Food Quality,Negative,-0.2152,Negative,False
+118,Udupi Swada,2026-04-21,5,Giri,Good,Overall Experience,Positive,0.4404,Positive,False
+119,Udupi Swada,2026-04-21,1,Veena,"Worst experience, despite asking to put less oil , they overburden noodles with more oil, also taste and quality is not upto price",Food Quality,Negative,-0.6249,Negative,False
+120,Udupi Swada,2026-04-18,1,Manish H G,Extremely unhygienic and rude,Hygiene,Negative,-0.5046,Negative,False
+121,Udupi Swada,2026-04-17,1,Shrinidhi S Karanth,"I noticed several rats in the hotel, including one behind the billing counter. Extremely unhygienic",Hygiene,Negative,0.0,Neutral,False
+122,Udupi Swada,2026-04-12,1,Asdf Zxcv,0 cleanliness,Hygiene,Negative,0.0,Neutral,False
+123,Udupi Swada,2026-04-09,4,Abdul Muqeet,Tasty veg food,Food Quality,Positive,0.0,Neutral,False
+124,Udupi Swada,2026-04-02,4,Sreehari Kollipara,Good food.,Food Quality,Positive,0.4404,Positive,False
+125,Udupi Swada,2026-03-29,4,Irfan Ulla,Taste is good but prices are high for vegetarian food because of Gas cylinders,Pricing,Neutral,0.2382,Positive,False
+126,Udupi Swada,2026-03-27,3,Maveeth Madan,Good hotel to have quick bite. Neat and clean,Food Quality,Positive,0.8225,Positive,False
+127,Udupi Swada,2026-03-25,1,Sri Banashankari Borewell And Pump Set,DON'T BUY FOOD .. THER IS NO CLEAN N FOOD IS NOT GOOD.. IN FOOD THER IS AN cockroachs i found when I started eating.. this was 2nd time itseems .. even my frnd got same issue . Don't go to this hostel.. be safe other .. not value for money,Hygiene,Negative,-0.7011,Negative,False
+128,Udupi Swada,2026-03-22,5,Ganesh S,Good for vegetarian food lovers,Food Quality,Positive,0.743,Positive,False
+129,Udupi Swada,2026-03-20,2,Vishwa Chavadhal,No vfm considering the taste,Pricing,Negative,-0.296,Negative,False
+130,Udupi Swada,2026-03-18,5,Praveena V,Worth of money good quality and food,Food Quality,Positive,0.5859,Positive,False
+131,Udupi Swada,2026-03-16,1,Sowbhagya Bm,Actually I'd like to give -1..... The staff is worst he denied to give fork and poor taste not Hygeneic,Staff Behaviour,Negative,-0.8225,Negative,False
+132,Udupi Swada,2026-03-14,4,Srujan Vardhana,Good taste it is far more good than other hotels in bengaluru you can taste very good tiffens and afternoon meals,Food Quality,Positive,0.8514,Positive,False
+133,Udupi Swada,2026-03-06,4,Mukesh Khatokar,"Had crispy akki roti with less oil, they gave 1 gathi chutney and other usual chutney and sagu.",Food Quality,Positive,0.0,Neutral,False
+134,Udupi Swada,2026-03-02,5,Hemanth Kumar,Good place,Overall Experience,Positive,0.4404,Positive,False
+135,Udupi Swada,2026-02-28,4,Arvind Saxena,Toor much crowded and little place for family,Ambience,Neutral,0.0,Neutral,False
+136,Udupi Swada,2026-02-27,4,Chandrashekara R,"Pure Vegetarian Restaurant with Party hall and separate Dining hall. Also undertake catering services. Serves North, South and Chinese dishes. Tasty food.",Food Quality,Positive,0.4019,Positive,False
+137,Udupi Swada,2026-02-23,5,Srinivas Murthy,I taken south Indian meals very tasty food all items karanataka special,Food Quality,Positive,0.4019,Positive,False
+138,Udupi Swada,2026-02-21,4,Shabreen Shabreen,Best restaurants in ks layout food is very good,Food Quality,Positive,0.8122,Positive,False
+139,Udupi Swada,2026-02-18,4,Mohammed Afak,All good but there is only one hand wash,Ambience,Neutral,0.7391,Positive,False
+140,Udupi Swada,2026-02-15,4,Adhil Salah,Overall good,Overall Experience,Positive,0.4404,Positive,False
+141,Udupi Swada,2026-02-13,5,Sanjaya Bhaskar,Food and varieties are good..and north indian food is very Tasty..and cleaness is also appriciated.....,Food Quality,Positive,0.0,Neutral,False
+142,Udupi Swada,2026-02-10,5,Vinay Poojari,"Fresh ingredients, creative flavors, and satisfying, high-quality dishes that appeal to everyone, not just vegetarians",Food Quality,Positive,0.802,Positive,False
+143,Udupi Swada,2026-02-07,5,Harsha Shetty.K,Best place pure veg with family also have plenty of parking place,Ambience,Positive,0.6369,Positive,False
+144,Udupi Swada,2026-02-02,1,Sri Shiroda Kamakshi Enterprises,Worst I ordered Noodles and carrot halwa around 3 pm today noodles is so worst not put masala nothing is there in that no spicy nothing why you people hire this type of chefs loss of 175/- really disgusting,Food Quality,Negative,-0.9554,Negative,False
+145,Udupi Swada,2026-01-28,2,Chaitrika,"The food preparation here is really unhygienic, and I found it unappetizing. The open atmosphere and self-service setup are inconvenient. It's just not worth it.",Hygiene,Negative,-0.4707,Negative,False
+146,Udupi Swada,2026-01-26,5,Every Thing Channel,I love sambar heare n service v fast,Food Quality,Positive,0.6369,Positive,False
+147,Udupi Swada,2026-01-22,5,Basanti Kalai,Very nice,Overall Experience,Positive,0.4754,Positive,False
+148,Udupi Swada,2026-01-19,5,Mohan Rao,"Gud place to have nice food with friends and family...very tatsy food..quality and quantity will be excellent..service is fast, no waiting time,outdide seating also available..lot of parking place is there..juices and milkshakes are additional benefits to the restaurant..",Food Quality,Positive,0.743,Positive,False
+149,Udupi Swada,2026-01-18,4,Rajesh Kumar,"I have tried mysore bun. Bisibelebath, Sambar vada and carrot halwa here and the taste was really very good",Food Quality,Positive,0.5379,Positive,False
+150,Udupi Swada,2026-01-17,5,Vinod Raj,Very good place for breakfast and tiffins around this area,Food Quality,Positive,0.4927,Positive,False
+151,Udupi Swada,2026-01-02,2,GKR,"Very rude staff and food is worst, so stale and bad. Rats are roaming around the kitchen and simply they are Shooing it away, no care of hygiene at all. Don't go here at all ",Hygiene,Negative,-0.9298,Negative,False
+152,Udupi Swada,2025-12-31,5,Panju Settar,clean and tasty,Food Quality,Positive,0.4019,Positive,False
+153,Udupi Swada,2025-12-29,2,Jayavardhan .A,I ordered sheswan panner fried rice but I got some thing like biryani fried rice not recommending any one.. Eat South Indian food its a bit better,Food Quality,Negative,0.7964,Positive,True
+154,Udupi Swada,2025-12-27,1,Deepti,Worst place,Overall Experience,Negative,-0.6249,Negative,False
+155,Udupi Swada,2025-12-25,5,Uttam Shetty,Nice ,Overall Experience,Positive,0.4215,Positive,False
+156,Udupi Swada,2025-12-22,1,Shivprabhu Rs,The food was very bad and the service is so pure the they don't want to address the problem and the reason is the staff is on leave,Service,Negative,-0.7854,Negative,False
+157,Udupi Swada,2025-12-13,5,Dnyaneshwar Gambhire,Authentic Karnataka taste,Food Quality,Positive,0.0,Neutral,False
+158,Udupi Swada,2025-12-04,3,Ashok Kumar,Good ,Overall Experience,Positive,0.4404,Positive,False
+159,Udupi Swada,2025-12-01,1,Abhishek R Bharadwaj,"Horrible food, horrible taste! Unhygienic.",Hygiene,Negative,-0.807,Negative,False
+160,Udupi Swada,2025-11-30,5,Mahesh Ashwini,Good atmosphere,Ambience,Positive,0.4404,Positive,False
+161,Udupi Swada,2025-11-22,1,Pavan Naik,"The service at this hotel was extremely disappointing. When we asked them to pack our food for parcel, they simply threw a cover at us and expected us to do it ourselves. This is completely unprofessional and unacceptable. The staff were rude and careless, and they showed no interest in helping guests. Overall, a very bad experience — definitely not worth the money.",Staff Behaviour,Negative,-0.9577,Negative,False
+162,Udupi Swada,2025-11-14,5,Arjun,Nice food,Food Quality,Positive,0.4215,Positive,False
+163,Udupi Swada,2025-11-05,5,Konda Sreedhara,Nice restaurant,Overall Experience,Positive,0.4215,Positive,False
+164,Udupi Swada,2025-11-02,1,Marshok Padu,Why the guy sitting on reception counter shows so much attitude? Annoying person,Staff Behaviour,Negative,-0.4522,Negative,False
+165,Udupi Swada,2025-10-29,1,Prashant Kumar,"No taste, no service motto, and High attitude of employees, they doesn't know how to speak with customers, food creates hiper acidity.",Staff Behaviour,Negative,0.1994,Positive,True
+166,Udupi Swada,2025-10-21,5,Yeshwanth Gowda S,A bit crowded,Ambience,Neutral,0.0,Neutral,False
+167,Udupi Swada,2025-10-17,5,Indrajeet Kaur,Our favourite hangout,Ambience,Positive,0.0,Neutral,False
+168,Udupi Swada,2025-10-03,5,J V K Roy'S,Small party very well,Ambience,Positive,0.624,Positive,False
+169,Udupi Swada,2025-10-01,4,Ramesh Dn Chintamani,Good service,Service,Positive,0.4404,Positive,False
+170,Udupi Swada,2025-09-30,5,Santanu Sen,Very good,Overall Experience,Positive,0.4927,Positive,False
+171,Udupi Swada,2025-09-17,2,Kirana H P Kph (Kiran),May be food is good but not more than our time they literally waste our time here to give the orders on time,Service,Negative,-0.4118,Negative,False
+172,Udupi Swada,2025-09-11,1,Yashwanth Shetty,Worst too much time to serve  I'm getting irritating to waiting,Service,Negative,-0.7964,Negative,False
+173,Udupi Swada,2025-09-05,4,Sandy 555,"We tried the north indian meal & a south indian meal. Both tasted good as per the price. Parking can be a bit difficult, sometimes for a bigger vehicle.",Food Quality,Positive,0.1027,Positive,False
+174,Udupi Swada,2025-09-02,3,Sapna P,"Came here seeing the reviews. Usually crowded place. Seating place is good. Coming to food, we ordered south indian meals out of which we only liked sambar and rasam. We almost wasted other items. We bought avacado milkshake and it only had the flavour of artificial pista powder. Not so good experience",Food Quality,Negative,-0.0607,Negative,False
+175,Udupi Swada,2025-08-16,5,Harshit Saxena,"South Indian food only for 90 , good food and pocket friendly",Pricing,Positive,0.7269,Positive,False
+176,Udupi Swada,2025-08-10,4,Arun H S,Idli and Breakfast items really nice. Idli is my favorite in this hotel.,Food Quality,Positive,0.7264,Positive,False
+177,Udupi Swada,2025-08-06,3,Raju Aarvi,"Food is good, price is not good, Comparatively other udupi hotels this is little over price",Pricing,Negative,0.1265,Positive,False
+178,Udupi Swada,2025-08-03,4,Karthik R V,"Good place, good quality food items available at reasonable price.",Food Quality,Positive,0.7003,Positive,False
+179,Udupi Swada,2025-07-11,4,Guruprasad Patil,Very Good but Quantity is less in general,Food Quality,Neutral,0.2724,Positive,False
+180,Udupi Swada,2025-07-06,4,Jay Surya,North India meals ⭐⭐⭐⭐,Food Quality,Positive,0.0,Neutral,False
+181,Udupi Swada,2025-07-02,4,Suresh Suri,Good place for lunch and part,Food Quality,Positive,0.4404,Positive,False
+182,Udupi Swada,2025-06-29,5,Chiranjeebi Samantaray,Nice place.,Overall Experience,Positive,0.4215,Positive,False
+183,Udupi Swada,2025-06-20,4,Vaishnavi G,The food was somewhat bland for our liking but I felt it was good as compared to the amount we paid,Food Quality,Neutral,0.6908,Positive,False
+184,Udupi Swada,2025-06-14,1,Venkatesh Rh,"The name is Udupi Swada but only North Indian is available here at night... So instead of calling it Udupi Swada, it should be called North Swada.....",Menu Variety,Negative,0.0,Neutral,False
+185,Udupi Swada,2025-06-09,4,Madhu Balaji,Very busy and high price,Pricing,Negative,0.0,Neutral,False
+186,Udupi Swada,2025-06-03,4,Mahesh M,Good to have vegetarian food,Food Quality,Positive,0.4404,Positive,False
+187,Udupi Swada,2025-05-23,4,Mogambo,"The menu had a variety of choices... I had yummy delicious north indian thali today... Food was good, place is clean, prices are reasonable and great service",Food Quality,Positive,0.9501,Positive,False
+188,Udupi Swada,2025-05-16,5,Sandesh S,Great place for veg options. They have added new Pudi idli in the menu,Menu Variety,Positive,0.6249,Positive,False
+189,Udupi Swada,2025-05-09,1,Pruthvi G R,"Stale food and contains 🪱 Worms (might be one off case).Curries aren't fresh (doesn't taste fresh and found a worm - check picture). Jamon given with North Thali has deposits (not fresh / kept in open for days - check picture)
+Wasn't happy with papad either (again, not fresh)",Hygiene,Negative,-0.8336,Negative,False
+190,Udupi Swada,2025-05-05,1,Harsha K,"The food was tasteless and overpriced, the service was shockingly slow, and the staff were rude and unhelpful. We felt completely ignored despite the high prices. Never wasting money here again. Avoid this place!",Staff Behaviour,Negative,-0.7599,Negative,False
+191,Udupi Swada,2025-05-03,2,Sinchana S,Has become worst due to management change. Only for namesake it's udupi. People handling and working are different. Not a brand taste.,Overall Experience,Negative,-0.6249,Negative,False
+192,Udupi Swada,2025-04-24,4,Supernova Op,Great food,Food Quality,Positive,0.6249,Positive,False
+193,Udupi Swada,2025-04-19,4,Pavithra Bhat,Water glasses were not cleaned 😞 need to pay attention to cleaning,Hygiene,Negative,0.2856,Positive,False
+194,Udupi Swada,2025-04-11,1,Eswar M.S.,"Worst food, you will never get fresh food here.",Food Quality,Negative,-0.7237,Negative,False
+195,Udupi Swada,2025-04-05,5,Santosh Vishwanath,Nice coffee,Food Quality,Positive,0.4215,Positive,False
+196,Udupi Swada,2025-04-01,5,Shiva Shankar,The food served is fresh and tasty. I liked the service. Two wheeler parking is available,Food Quality,Positive,0.6249,Positive,False
+197,Udupi Swada,2025-03-26,5,Namratha Nataraj,Best hotel with good pricing. Taste of food is amazing. Thanks to Satish who owns the hotel.,Food Quality,Positive,0.93,Positive,False
+198,Udupi Swada,2025-03-21,1,Rahul Murthy,Horrible panner 65. Completely bland. No flavor. Can't believe I waited 20 minutes for this. The cook hardly kept the panner for cooking on the stove for a minute.,Food Quality,Negative,-0.7165,Negative,False
+199,Udupi Swada,2025-03-17,5,Priya Ghooli,"Udupi Swada Hotel is a must-visit for authentic South Indian cuisine. Their South Indian meal is a flavorful feast with perfectly spiced sambar, rassam, and fresh curries. The Open Masala Dosa is a standout— generously filled, and served with delicious chutney and sambar. The ambiance is simple and welcoming, and the service is attentive. A top choice for South Indian food lovers!",Overall Experience,Positive,0.9656,Positive,False
+200,Udupi Swada,2025-03-03,5,Swathi Sudhakar,Excellent food quality and service and atmosphere is very good and maintained very well with good clean and hygiene and here they serve with Combination of South Indian and North Indian dishes most of the time I tried here is Bisi bele bath and Rava idli they combination of Rava idli with Chutney is very good.,Food Quality,Positive,0.9541,Positive,False
+201,Sri Krishna Aramane,2026-06-26,5,Sohan,"It's a really good and affordable hotel with tasty food,. Worth the price",Food Quality,Positive,0.624,Positive,False
+202,Sri Krishna Aramane,2026-06-22,1,Nuthan Kaparthy,"Only Mogalai Biryani is good. Price ti quantity is crazy more. Rest all(baby corn, hygiene etc etc) are bad, super bad",Food Quality,Negative,-0.3818,Negative,False
+203,Sri Krishna Aramane,2026-06-23,5,Mahesh Shiva,Good,Overall Experience,Positive,0.4404,Positive,False
+204,Sri Krishna Aramane,2026-06-21,3,Jesintha A,Food not that great taste and quality,Food Quality,Negative,-0.5096,Negative,False
+205,Sri Krishna Aramane,2026-06-20,1,Chaitra R,"They serve food with lot of soda, and stale food not fresh, and for all cooking they use palm oil only, I have seen many times, since our office is in same road we used to go for lunch here, but day by day our team felt bad In health, whenever we had food in this hotel due to lot of soda usage and bad oil our team used to have stomach pain, please be cautious before eating here.",Hygiene,Negative,-0.9335,Negative,False
+206,Sri Krishna Aramane,2026-06-18,1,Roshan,"Ordered masala dosa and set dosa from this place from zomato, completely disappointed by the quality, even street vendors make better dosa than this place . Dosa was made in spoiled ghee, foul smell was coming from chutney and potato palya . Pathetic.",Hygiene,Negative,-0.6361,Negative,False
+207,Sri Krishna Aramane,2026-06-12,4,God Account,Very good food,Food Quality,Positive,0.4927,Positive,False
+208,Sri Krishna Aramane,2026-06-10,1,Rafikul Gazi,Not good,Overall Experience,Negative,-0.3412,Negative,False
+209,Sri Krishna Aramane,2026-06-09,1,Shivan Mac,The food is average. Oily.,Food Quality,Negative,0.0,Neutral,False
+210,Sri Krishna Aramane,2026-06-06,4,Bhumika Shetty,We did birthday in the party hall food taste is very good but the saddest part is decoration man he will not even respond to the customer calls correctly .,Staff Behaviour,Negative,-0.5504,Negative,True
+211,Sri Krishna Aramane,2026-06-03,5,Soma Shekar,God food,Food Quality,Positive,0.2732,Positive,False
+212,Sri Krishna Aramane,2026-06-01,3,Yogesh Ks (Yogi),"Food tastes good and overall the experience was nice over years, However, I unfortunately found an ant in my dal khichdi when offered parcel this time. I understand mistakes can happen, and I’m not questioning the restaurant’s overall hygiene standards, but I wanted to bring it to their attention so they can review their food preparation and serving processes. Hoping this was a one-off incident.",Hygiene,Negative,0.6426,Positive,False
+213,Sri Krishna Aramane,2026-05-28,2,Megha Bhat,"Too much masala in vangi bath, felt bloating after eating",Food Quality,Negative,0.0,Neutral,False
+214,Sri Krishna Aramane,2026-05-26,2,Sachin Sagar M S,Average food,Food Quality,Neutral,0.0,Neutral,False
+215,Sri Krishna Aramane,2026-05-22,5,Ajay Palavalli,Delicious food and pocket friendly,Food Quality,Positive,0.7845,Positive,False
+216,Sri Krishna Aramane,2026-05-18,1,Sethu Pathi,"I visited this shop for dinner on May 8 around 9:50 pm and ordered a dosa for ₹55. I paid through GPay and instead of giving the bill properly, the owner threw it on the table disrespectfully. When I politely asked why the bill was handled like that, he responded very rudely. I then said I did not want the food and asked for my money back calmly. Instead of handling the situation professionally, he shouted at me and used insulting words mentioning that I came from Tamil Nadu and was arguing in Karnataka. This kind of behavior towards customers is unacceptable.I did not fight or create any problem. I only asked to be treated respectfully. Very disappointing experience.",Staff Behaviour,Negative,-0.7807,Negative,False
+217,Sri Krishna Aramane,2026-05-11,5,Shripati Dev,One of the best hotels in Kumarswamy Layout. Taste is too good. Quality. Quantity.,Food Quality,Positive,0.7964,Positive,False
+218,Sri Krishna Aramane,2026-05-07,3,Nafeezudeen Ahamed,Average,Overall Experience,Neutral,0.0,Neutral,False
+219,Sri Krishna Aramane,2026-05-04,1,Vijay Kumar,Taste of the food is not good. Behavior of the management is very poor. I ate Bisibelebath but it was very bad,Food Quality,Negative,-0.8438,Negative,False
+220,Sri Krishna Aramane,2026-05-03,1,Vinay Murali,"They do not maintain proper hygiene standards, which is quite disappointing. The quality of food has also declined compared to how it was earlier. Additionally, most of the staff come across as rude, which affects the overall experience.",Overall Experience,Negative,-0.7574,Negative,False
+221,Sri Krishna Aramane,2026-04-30,1,Mahendra Shetty,The meal is not good.,Food Quality,Negative,-0.3412,Negative,False
+222,Sri Krishna Aramane,2026-04-27,1,Raghu Sachin,Worest food bisibele bath is very bad,Food Quality,Negative,-0.5849,Negative,False
+223,Sri Krishna Aramane,2026-04-21,3,Chethan K M S,"The dal kichdi in this hotel is the trademark dish, never take dosa’s in the evening here as I have always experienced they serve spoiled chutneys in the evening.",Hygiene,Negative,0.0,Neutral,False
+224,Sri Krishna Aramane,2026-04-16,1,Adarsha Raja,Pathetic experience … very cleanly ness at food preparation place and don’t think about hygiene they don’t know and care about that,Hygiene,Negative,-0.128,Negative,False
+225,Sri Krishna Aramane,2026-04-12,1,Charan C,Brought one plate chapati felt like eating rubber worst experience never buying again,Food Quality,Negative,-0.3818,Negative,False
+226,Sri Krishna Aramane,2026-04-07,1,Stephen John Pinto,One of the worst experience i have ordered 15 masala dosas chutney was rotten and potato stuffing was stale if i inform the staff at the hotel and if i ask the cashier is creating unwanted chaos and he is snaching my phone from me and using foul languages I dropped the food at the hotel and i came back one of the worst restaurant ever all gundas at one place please never ever visit this place,Staff Behaviour,Negative,-0.9274,Negative,False
+227,Sri Krishna Aramane,2026-04-02,4,Manju Manu,Ragi dosa hotel Must-try ragi dosa here,Food Quality,Positive,0.0,Neutral,False
+228,Sri Krishna Aramane,2026-03-31,3,Manikanta Sn,"Food,  Rice item used much baking soda can't able to eat food price not worth for the food quality",Food Quality,Negative,-0.1695,Negative,False
+229,Sri Krishna Aramane,2026-03-26,1,Pradeep V R,"Worst experience ever. I visited Sri Krishna Aramane expecting a decent meal, but it was a complete disaster. The food was tasteless and poorly prepared, the service was incredibly slow and unprofessional, and the seating environment was uncomfortable. To make matters worse, the hygiene standards are non-existent. Save your money and go somewhere else.",Overall Experience,Negative,-0.9413,Negative,False
+230,Sri Krishna Aramane,2026-03-22,1,Vamsi Jangala,Very late,Service,Negative,0.0,Neutral,False
+231,Sri Krishna Aramane,2026-03-15,5,Ganesh S,Good for vegetarian food lovers,Food Quality,Positive,0.743,Positive,False
+232,Sri Krishna Aramane,2026-03-10,3,Shubham Kamble,Food is good,Food Quality,Positive,0.4404,Positive,False
+233,Sri Krishna Aramane,2026-03-07,4,Sweetie R,I don't like the food taste and quality is very low,Food Quality,Negative,-0.5428,Negative,True
+234,Sri Krishna Aramane,2026-03-05,1,Vijayanand J,"Serving stale food, absolutely disgusting, bought (parcel) masala dosa for my daughter take it home and the potato is stinking. Go back and complain, zero remorse. Pathetic fellows.",Hygiene,Negative,-0.9371,Negative,False
+235,Sri Krishna Aramane,2026-03-01,3,Nikesh Ms,"Food was average. I tried their ₹100 “Aramane Special Combo,” which was okay for the price but nothing special. Overall, it was just an average dining experience.",Food Quality,Neutral,-0.1499,Negative,False
+236,Sri Krishna Aramane,2026-02-28,1,Jinde Kavyasree,Very bad service,Service,Negative,-0.5849,Negative,False
+237,Sri Krishna Aramane,2026-02-24,3,Shabreen Shabreen,Good hotel food is ok ok in fried rice. Sum rock pieces came fried rice is very bad,Food Quality,Negative,0.3626,Positive,False
+238,Sri Krishna Aramane,2026-02-20,1,Tejas Gowda,Worst place no respect to the delivery agents,Staff Behaviour,Negative,-0.7687,Negative,False
+239,Sri Krishna Aramane,2026-02-14,2,Aravind Bettadapura,Used to be good food when they started. Now feels like just serve the customer. I did notice a drop in food taste.,Food Quality,Negative,0.5106,Positive,True
+240,Sri Krishna Aramane,2026-02-10,5,Viji Patil,Good veg hotel in the main toad,Overall Experience,Positive,0.4404,Positive,False
+241,Sri Krishna Aramane,2026-02-03,5,Rishu Kumar,Good food,Food Quality,Positive,0.4404,Positive,False
+242,Sri Krishna Aramane,2026-01-31,5,Sumon Dey,Nice shop,Overall Experience,Positive,0.4215,Positive,False
+243,Sri Krishna Aramane,2026-01-22,5,Koushik Gantasara,Authentic taste in modern hotel,Food Quality,Positive,0.0,Neutral,False
+244,Sri Krishna Aramane,2026-01-18,5,Ramesh Rami,"Sri Krishna Palace is a vegetarian hotel located opposite the bus stand in Kumaraswamy Layout.Here, dosa, idli, uddhi, vade, sambar, rave idli, rave dosa, chapati, puri, pride rice, roti, midday meal, panipuri,many other dishes are available here.This is a favorite place for vegetarians.",Menu Variety,Positive,0.6597,Positive,False
+245,Sri Krishna Aramane,2026-01-06,4,Vinoth Kumar,Food is good. But they need to concentrate on oil usage,Food Quality,Neutral,0.2382,Positive,False
+246,Sri Krishna Aramane,2025-12-27,5,"Krishna Tugave
+",Very nice and hygienic,Hygiene,Positive,0.4754,Positive,False
+247,Sri Krishna Aramane,2025-12-24,1,Suresh Sony,Worst rooti. Suttu karakalada roti,Food Quality,Negative,-0.6249,Negative,False
+248,Sri Krishna Aramane,2025-12-18,1,Bharath Kumar. R,Tastes is not good,Food Quality,Negative,-0.3412,Negative,False
+249,Sri Krishna Aramane,2025-12-13,3,Kirankumar Vasanthakumar,Very average quality. Ordered Chana batura and received a tomato based Chana gravy. Very disappointed.,Food Quality,Negative,-0.5256,Negative,False
+250,Sri Krishna Aramane,2025-12-09,1,Varun K Nandimath,"Definitely THE WORST HOTEL IN BENGALURU. VERY RUDE CASHIER/MANAGER. UNHYGENIC, UNCLEAN AND FOOD IS VERY BAD.NO WASHROOM - Very inconvenient to ladies and elders.",Overall Experience,Negative,-0.8906,Negative,False
+251,Sri Krishna Aramane,2025-12-03,3,Ravi Kurgund,Restaurant is ok,Overall Experience,Neutral,0.296,Positive,False
+252,Sri Krishna Aramane,2025-11-29,4,Niranjan,Overall it's good,Overall Experience,Positive,0.4404,Positive,False
+253,Sri Krishna Aramane,2025-11-24,5,Dayananda P,Different kind of food taste,Food Quality,Neutral,0.0,Neutral,False
+254,Sri Krishna Aramane,2025-11-19,5,Abhishek R,Nice place for,Overall Experience,Positive,0.4215,Positive,False
+255,Sri Krishna Aramane,2025-11-11,1,Shivaraj 8252,Worst foods,Food Quality,Negative,-0.6249,Negative,False
+256,Sri Krishna Aramane,2025-11-04,5,Pj,Good food. Ate regularly here. And the morning breakfast combos are the best.,Food Quality,Positive,0.7964,Positive,False
+257,Sri Krishna Aramane,2025-11-01,5,Sindhu P,Good breakfast and items were more,Food Quality,Positive,0.4404,Positive,False
+258,Sri Krishna Aramane,2025-10-27,5,Arjun Bm,Awesome food here at affordable prices... and party hall is also very good for a day function and affordable too compared to others in ks layout...,Pricing,Positive,0.8748,Positive,False
+259,Sri Krishna Aramane,2025-10-16,1,Kjnaveen Naveen,Worst service,Service,Negative,-0.6249,Negative,False
+260,Sri Krishna Aramane,2025-10-07,1,Shravya Rao,I ordered north combo where the food is not properly prepared after complaining also he refused to ans me.,Food Quality,Negative,-0.567,Negative,False
+261,Sri Krishna Aramane,2025-10-03,5,"
+Srinidhi R",Well maintained hotel in kumarswamy layout. Food service is good.,Overall Experience,Positive,0.6124,Positive,False
+262,Sri Krishna Aramane,2025-09-30,1,Tasneem Kauser,"Do not eat masala dosa there , i found a cockroach in it",Hygiene,Negative,0.0,Neutral,False
+263,Sri Krishna Aramane,2025-09-23,5,Sudheer Madhurakavi,Good food,Food Quality,Positive,0.4404,Positive,False
+264,Sri Krishna Aramane,2025-09-17,3,Mahesh Kumar,"I attended a private function here today. While the hall was adequate for an intimate gathering of about 50-60 people, parking is quite difficult to find. However the food and service was was great. Value for money.",Overall Experience,Positive,0.6815,Positive,False
+265,Sri Krishna Aramane,2025-09-12,1,Sanju M G Gowda,Pls don't order food and don't book this restorent service boys and management it's rude and worst,Staff Behaviour,Negative,-0.7783,Negative,False
+266,Sri Krishna Aramane,2025-09-06,5,Nandini,Good service,Service,Positive,0.4404,Positive,False
+267,Sri Krishna Aramane,2025-09-01,4,Ramalingam K.K,.Food is so and so,Food Quality,Neutral,0.0,Neutral,False
+268,Sri Krishna Aramane,2025-08-29,4,Arun Hs,For South Indian options this Hotel is one of the options in Kumaraswamy Layout. Idli is good and We can try Dosa items.,Food Quality,Positive,0.4404,Positive,False
+269,Sri Krishna Aramane,2026-08-20,5,Yogindra N,"Good service, food quality teast, cleanly maintained",Food Quality,Positive,0.4404,Positive,False
+270,Sri Krishna Aramane,2025-08-13,5,Nandan S,The Biryanis over here are a must try. Once you try you'll keep on ordering from the place!,Food Quality,Positive,0.0,Neutral,False
+271,Sri Krishna Aramane,2025-08-11,5,Viru Viru, nice,Overall Experience,Positive,0.4215,Positive,False
+272,Sri Krishna Aramane,2025-08-07,1,Monaksha,Worst experience food also is not so good no proper management don't come,Overall Experience,Negative,-0.7214,Negative,False
+273,Sri Krishna Aramane,2025-08-05,1,Gowrish Tr,I have received a stale food from swiggy when ordered for this restaurant,Online Delivery,Negative,0.0,Neutral,False
+274,Sri Krishna Aramane,2025-08-01,1,Santosh Bavoor,"Quality and quantity is not good because of too much crowd. Also if we ask our food to servers they'll behave like rowdies/goondas. Also when it comes to cleanliness, we can able to see their kitchen premises and the persons who are preparing food and their cloths also. They'll not maintain clean and Hiegene. Food taste is also not good because of too much crowd, they'll make the items in bulk quantity. Highly Not recommended..",Overall Experience,Negative,-0.6641,Negative,False
+275,Sri Krishna Aramane,2025-07-23,1,Asif Ali Rizwi,"Sambar - Blant, Dosa - Soft, Jamun - Fridge cold, Service - Got my dosa after 20-25 mins, i mean common, seen much better and busier places but they are just, like no management.Recomend not to eat unless its on yourlife.",Food Quality,Negative,0.34,Positive,True
+276,Sri Krishna Aramane,2025-07-19,4,Rajesh Jagdale,Ok can improvise,Overall Experience,Neutral,0.296,Positive,False
+277,Sri Krishna Aramane,2025-07-17,5,Vamsi Vamsi,Exllent,Overall Experience,Positive,0.0,Neutral,False
+278,Sri Krishna Aramane,2025-07-12,3,Harish Kumar,Its okay,Overall Experience,Neutral,0.2263,Positive,False
+279,Sri Krishna Aramane,2025-07-07,3,Prasad Hegde,"Shri Krishna Aramane serves South Indian-style food with a traditional touch. The overall experience is quite average—decent for a quick meal if you're in the area. While the taste and service could be improved, it's still a fair option for a simple and budget-friendly South Indian meal.",Overall Experience,Neutral,0.6597,Positive,False
+280,Sri Krishna Aramane,2025-07-03,5,Mamatha Prem,It's not okay to advise good food they serve,Food Quality,Positive,0.3036,Positive,False
+281,Sri Krishna Aramane,2025-06-30,4,Guruprasad Patil,Not spacious But food is good,Food Quality,Neutral,0.5927,Positive,False
+282,Sri Krishna Aramane,2026-06-25,1,Abhi Kush,Worst experience and coustomer food plate cockroach it's there maneger it's worst.. kichen not clean 🤮🤮🤮🤮🤮🤮 and pls don't booking food order in Sri Krishna Aramane hotel Swiggy and zomato,Online Delivery,Negative,-0.8795,Negative,False
+283,Sri Krishna Aramane,2026-06-18,1,Vivek P,"Too much of food color added. Manchurian is orange, hyd biryani is green (check photo), gravies are orange. I doubt even sambar has added food color. Had informed the people earlier about the food color, but they haven't stopped adding. Even the roadside vendors have stopped adding food color, but not these guys.",Food Quality,Negative,-0.2734,Negative,False
+284,Sri Krishna Aramane,2025-06-11,5,Veena R,Too good,Overall Experience,Positive,0.4404,Positive,False
+285,Sri Krishna Aramane,2025-06-06,4,Vikash Bhansali,Nice.,Overall Experience,Positive,0.4215,Positive,False
+286,Sri Krishna Aramane,2025-06-02,1,Prashanth Gn,Not good,Overall Experience,Negative,-0.3412,Negative,False
+287,Sri Krishna Aramane,2025-05-31,4,"Krishna Das
+","Food is good, Veg only.Poori is heavy :) Easy to locate, at the bus stop itself. Decent service.",Food Quality,Positive,0.8316,Positive,False
+288,Sri Krishna Aramane,2025-05-22,1,Chowdary'S Chandu,Worst,Overall Experience,Negative,-0.6249,Negative,False
+289,Sri Krishna Aramane,2025-05-18,5,Sharath Dpn,Nice,Overall Experience,Positive,0.4215,Positive,False
+290,Sri Krishna Aramane,2025-05-15,2,P R A  T A P,Food hard card chew pori and dose is very hard to eat (mugal briyani is too good👍) reminng items are not good,Food Quality,Negative,-0.1528,Negative,False
+291,Sri Krishna Aramane,2025-05-10,5,Laxmanrao Kulkarni,Super ,Overall Experience,Positive,0.5994,Positive,False
+292,Sri Krishna Aramane,2025-05-04,5,Javeed Patel,good quality,Food Quality,Positive,0.4404,Positive,False
+293,Sri Krishna Aramane,2025-05-01,1,Salman Shaikh,Worst behaviour of staff,Staff Behaviour,Negative,-0.6249,Negative,False
+294,Sri Krishna Aramane,2025-04-27,1,Abhijeet Kumar Yadav,Worst quality paneer chilli and other food,Food Quality,Negative,-0.6249,Negative,False
+295,Sri Krishna Aramane,2025-04-22,2,Jonathan,"There is a wide variety of items but all of them are average or below average in taste. It was much better few months back but the quality has distinctively deteriorated now. Most of the dosa are too hard and almost burnt, lacking in ghee, butter or any flavour. Vada is soaking in oil. Idli is average. Only few good items left are Mysore masala dosa, Schezwan fried rice. Have not yet tried their meals.",Food Quality,Negative,0.7964,Positive,True
+296,Sri Krishna Aramane,2025-04-16,5,Pieterfan,"Set dose, buns, khara bath, vade are very good. Probably best restaurant in ks layout.",Food Quality,Positive,0.8251,Positive,False
+297,Sri Krishna Aramane,2025-04-09,5,Raghavendra Ramachar,North combo meals is a must try. But beware of arrogant cashier. He literally doesnt know how to behave with female customers.,Staff Behaviour,Negative,-0.6486,Negative,True
+298,Sri Krishna Aramane,2025-04-01,1,Venkatesh Venkatesh,Not good uta,Food Quality,Negative,-0.3412,Negative,False
+299,Sri Krishna Aramane,2025-03-24,1,Leela Manjunath,"Rude behaviour by the management and staff. Average quality food . Concentrated only on Swiggy, zomato etc. Minimum 45 min taken to serve simple advised not to visit.",Staff Behaviour,Negative,-0.4588,Negative,False
+300,Sri Krishna Aramane,2025-03-19,3,Sanath Kumar,Very expensive,Pricing,Negative,0.0,Neutral,False

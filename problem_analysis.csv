@@ -1,0 +1,27 @@
+Restaurant,Complaint_Category,Total_Reviews,Negative_Reviews,Negative_%
+Dwaraka Grand,Ambience,4,1,25.0
+Dwaraka Grand,Food Quality,56,16,28.57
+Dwaraka Grand,Food Quantity,1,1,100.0
+Dwaraka Grand,Hygiene,6,2,33.33
+Dwaraka Grand,Menu Variety,1,0,0.0
+Dwaraka Grand,Online Delivery,1,0,0.0
+Dwaraka Grand,Overall Experience,17,0,0.0
+Dwaraka Grand,Pricing,3,1,33.33
+Dwaraka Grand,Service,8,4,50.0
+Dwaraka Grand,Staff Behaviour,3,2,66.67
+Sri Krishna Aramane,Food Quality,49,18,36.73
+Sri Krishna Aramane,Hygiene,8,4,50.0
+Sri Krishna Aramane,Menu Variety,1,0,0.0
+Sri Krishna Aramane,Online Delivery,2,1,50.0
+Sri Krishna Aramane,Overall Experience,26,8,30.77
+Sri Krishna Aramane,Pricing,2,0,0.0
+Sri Krishna Aramane,Service,4,2,50.0
+Sri Krishna Aramane,Staff Behaviour,8,8,100.0
+Udupi Swada,Ambience,7,0,0.0
+Udupi Swada,Food Quality,48,9,18.75
+Udupi Swada,Hygiene,11,8,72.73
+Udupi Swada,Menu Variety,2,0,0.0
+Udupi Swada,Overall Experience,14,2,14.29
+Udupi Swada,Pricing,6,2,33.33
+Udupi Swada,Service,4,3,75.0
+Udupi Swada,Staff Behaviour,8,6,75.0
