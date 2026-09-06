@@ -430,60 +430,109 @@ Local-business-audit-v2/
     ├── review_analysis.csv
     ├── dish_price_comparison.csv
     └── low_rating_analysis.csv
-▶️ How to Run
-1. Clone the repository
+
+---
+
+# 📁 Project Structure
+
+```text
+Local-business-audit-v2/
+│
+├── README.md
+├── analysis.py
+├── requirements.txt
+│
+├── overview.png
+├── customer_sentiment_complaints.png
+├── problem_diagnosis.png
+│
+└── output/
+    ├── restaurant_benchmark.csv
+    ├── problem_analysis.csv
+    ├── rating_summary.csv
+    ├── review_analysis.csv
+    ├── dish_price_comparison.csv
+    └── low_rating_analysis.csv
+```
+
+# ▶️ How to Run
+
+### 1. Clone the repository
+```bash
 git clone https://github.com/Shakshi-Jalan/Local-business-audit-v2.git
-2. Open the project folder
+```
+
+### 2. Open the project folder
+```bash
 cd Local-business-audit-v2
-3. Install the required libraries
+```
+
+### 3. Install the required libraries
+```bash
 pip install -r requirements.txt
-4. Add the Excel workbook locally
+```
 
-Place the project Excel workbook in the same folder as analysis.py.
+### 4. Add the Excel workbook
+Place the Excel workbook in the same folder as `analysis.py`.  
+The raw Excel workbook is not included in the public repository.
 
-The raw workbook is not included in the public repository.
-
-5. Run the analysis
+### 5. Run the analysis
+```bash
 python analysis.py
+```
 
-The script generates the analytical CSV files used for the Power BI dashboard.
+The script will generate the analytical CSV files inside the `output/` folder.
 
-📄 Output Files
-File	Description
-restaurant_benchmark.csv	Restaurant-level rating, sentiment and price benchmark
-problem_analysis.csv	Complaint category and negative sentiment analysis
-rating_summary.csv	Rating distribution summary
-review_analysis.csv	Review-level analysis with VADER sentiment
-dish_price_comparison.csv	Dish-level price comparison
-low_rating_analysis.csv	Low-rating problem and priority analysis
-🧠 Skills Demonstrated
-Data Cleaning
-Data Validation
-Exploratory Data Analysis
-Python
-Pandas
-Sentiment Analysis
-VADER
-Customer Feedback Analysis
-Complaint Categorization
-Competitor Benchmarking
-Business Problem Solving
-Data Visualization
-Power BI
-DAX
-Dashboard Design
-Business Recommendations
-👩‍💻 Author
+---
 
-Shakshi Jalan
+# 📄 Output Files
 
-Electronics & Telecommunication Engineering Student
-Dayananda Sagar College of Engineering, Bengaluru
+| File | Description |
+|------|-------------|
+| `restaurant_benchmark.csv` | Restaurant-level rating, sentiment and price benchmark |
+| `problem_analysis.csv` | Complaint category and negative sentiment analysis |
+| `rating_summary.csv` | Rating distribution summary |
+| `review_analysis.csv` | Review-level analysis with VADER sentiment |
+| `dish_price_comparison.csv` | Dish-level price comparison |
+| `low_rating_analysis.csv` | Low-rating problem and priority analysis |
 
+---
+
+# 🧠 Skills Demonstrated
+
+- Data Cleaning
+- Data Validation
+- Exploratory Data Analysis
+- Python
+- Pandas
+- Sentiment Analysis
+- VADER
+- Customer Feedback Analysis
+- Complaint Categorization
+- Competitor Benchmarking
+- Business Problem Solving
+- Data Visualization
+- Power BI
+- DAX
+- Dashboard Design
+- Business Recommendations
+
+---
+
+# 👩‍💻 Author
+
+**Shakshi Jalan**  
+Electronics & Telecommunication Engineering Student  
+Dayananda Sagar College of Engineering, Bengaluru  
 Aspiring Data Analyst
 
-⭐ Project Summary
+---
 
+# ⭐ Project Summary
+
+This project demonstrates an end-to-end analytics workflow where raw customer review and restaurant pricing data is transformed into business insights using Python, Pandas, VADER, and Power BI.
+
+The main goal is not just to build a dashboard, but to use data to understand customer problems, competitor performance, pricing position, and possible business actions.
 This project demonstrates an end-to-end analytics workflow where raw customer review and restaurant pricing data is transformed into business insights using Python, Pandas, VADER, and Power BI.
 
 The main goal is not just to build a dashboard, but to use data to understand customer problems, competitor performance, pricing position, and possible business actions.
